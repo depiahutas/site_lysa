@@ -1,0 +1,51 @@
+{% load static %}
+
+<link rel="shortcut icon" type="image/x-icon" href="{% static 'polls/img/favicon.ico' %}" />
+<link rel="stylesheet" href="{% static 'polls/style.css' %}" media="screen">
+
+
+<nav class="nav">
+    <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul class="nav-menu">
+        <li><a href="/home">Accueil</a></li>
+        <li><a href="/home/produits/">nos produits</a></li>
+        <li><a href="/home/informations/">plus d'informations</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+
+
+    <div class="logo">
+        <img class="logo_img" src="{% static 'polls/img/logo.png' %}" />
+        <div class="logo-name">Spy traps </div>
+
+    </div>
+
+    <div class="text">
+        <div class="text-text">
+            <h1>Pourquoi acheter nos produits ?</h1><br />
+            <br />
+            Achetez nos produits pour plusieurs raisons comme par exemple confirmer vos doutes grace a de vraies
+            preuves.
+
+            <br /><br /><span class="txt_border">SOS mon mari me trompe</span><br />
+            <br /><span class="txt_border">Je suis en manque de potins</span><br />
+            <br /><span class="txt_border">Tout savoir sur la vie de mes enfants</span><br />
+
+        </div>
+    </div>
+
+
+    <div class="border"></div>
+    <div class="border2"></div>
+
+
+</div>
+
+
+<script src="{% static 'js/main.js' %}"></script>

@@ -1,0 +1,61 @@
+{% load static %}
+
+
+<link rel="shortcut icon" type="image/x-icon" href="{% static 'polls/img/favicon.ico' %}" />
+<link rel="stylesheet" href="{% static 'polls/produits.css' %}" media="screen">
+
+<title>Nos produits</title>
+
+<nav class="nav">
+    <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul class="nav-menu">
+        <li><a href="/home">Accueil</a></li>
+        <li><a href="/home/pourquoi-acheter">pourquoi acheter ?</a></li>
+        <li><a href="/home/informations/">plus d'informations</a></li>
+    </ul>
+</nav>
+
+
+<div class="container">
+
+    <div class="border"></div>
+    <div class="border-2"></div>
+
+    <div class="logo">
+        <img class="logo_img" src="{% static 'polls/img/logo.png' %}" style="width:100px"/>
+        <div class="logo-name">Spy traps </div>
+
+    </div>
+
+    <div class="pigeon-img"><img src="{% static 'polls/img/pigeon.png'%}"/></div>
+
+    <div class="pigeon-txt">
+        <span><h3>Pigeon 3D : </h3></span>
+
+        <span>Nous vous presentons notre tout nouveau produit, represente sous forme de pigeon, afin qu il passe inapercu.<br />
+        Equipe de camera permettant d'enregistrer toutes images et conversations.
+        </span><br /><br />
+
+        <div prix-pigeon><span style="border:solid black 1px; padding:5px; font-weight:bold">358.99 euros</span></div>
+    </div>
+
+    <div class="ral-img"><img src="{% static 'polls/img/ral.png'%}" /></div>
+
+    <div class="ral-txt">
+        <span><h3>Rouge a levres laser:</h3></span><br />
+
+        <span>
+            Ce rouge a levre laser, relie au premier produit (le pigeon), dans le but de choisir sa cible.<br />
+            Possedant un second bouton, le ramenant a son proprietaire grace a son gps integre.
+        </span><br /><br />
+
+        <div prix-ral ><span style="border:solid black 1px; padding:5px; font-weight:bold">16.87 euros</span></div>
+    </div>
+
+
+    <script src="{% static 'js/main.js' %}"></script>
+</div>

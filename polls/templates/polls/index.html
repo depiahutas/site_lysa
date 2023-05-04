@@ -1,0 +1,74 @@
+{% load static %}
+
+<link rel="shortcut icon" type="image/x-icon" href="{% static 'polls/img/favicon.ico' %}" />
+<link rel="stylesheet" href="{% static 'polls/style.css' %}" media="screen">
+
+
+<nav class="nav">
+    <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul class="nav-menu">
+        <li><a href="/home/produits/">nos produits</a></li>
+        <li><a href="/home/pourquoi-acheter">pourquoi acheter ?</a></li>
+        <li><a href="/home/informations/">plus d'informations</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+
+    <div class="logo">
+        <img class="logo_img" src="{% static 'polls/img/logo.png' %}" />
+        <div class="logo-name">Spy traps </div>
+
+    </div>
+
+    <div class="text">
+        <div class="text-text">
+            Spy traps est une entreprise creer afin de mettre fin a vos doutes ou d'en apprendre plus sur votre entourage. C'est un service d'espion pret a vous aider 24h/24
+        </div>
+    </div>
+
+
+    <a href="produits" class="card">
+        <div class="nos-produits">
+
+            nos produits
+            <div class="link" ">
+                <img src="{% static 'polls/img/produits.png' %}" />
+            </div>
+
+        </div>
+    </a>
+
+    <div class="border"></div>
+    <div class="border2"></div>
+
+    <a href="pourquoi-acheter" class="card">
+        <div class="pouquoi-acheter">
+
+            Pourquoi acheter ?
+            <div class="link">
+                <img src="{% static 'polls/img/pk_acheter.png' %}" />
+            </div>
+
+        </div>
+    </a>
+
+    <a href="informations" class="card">
+        <div class="plus-d-information">
+
+            plus d'informations
+            <div class="link">
+                <img src="{% static 'polls/img/infos.png' %}" />
+            </div>
+
+        </div>
+    </a>
+
+</div>
+
+
+<script src="{% static 'js/main.js' %}"></script>

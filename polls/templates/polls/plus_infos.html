@@ -1,0 +1,50 @@
+{% load static %}
+
+<link rel="shortcut icon" type="image/x-icon" href="{% static 'polls/img/favicon.ico' %}" />
+<link rel="stylesheet" href="{% static 'polls/style.css' %}" media="screen">
+
+
+<nav class="nav">
+    <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul class="nav-menu">
+        <li><a href="/home">Accueil</a></li>
+        <li><a href="/home/produits/">nos produits</a></li>
+        <li><a href="/home/pourquoi-acheter">pourquoi acheter ?</a></li>
+    </ul>
+</nav>
+</nav>
+
+<div class="container">
+
+
+    <div class="logo">
+        <img class="logo_img" src="{% static 'polls/img/logo.png' %}" />
+        <div class="logo-name">Spy traps </div>
+
+    </div>
+
+    <div class="text">
+        <div class="text-text">
+            Cette entreprise a debute le 5 decembre 2022, dans le domaine de l'espionnage.<br />
+            <br />
+            Nous avons choisis de creer cettre entreprise suite a notre grande curiosite et a notre admiration
+            pour les totally spies.<br />
+            <br />
+            Ayant pour objectif de reduire les incertitudes de chacun.
+
+        </div>
+    </div>
+
+
+    <div class="border"></div>
+    <div class="border2"></div>
+
+
+</div>
+
+
+<script src="{% static 'js/main.js' %}"></script>
