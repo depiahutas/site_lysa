@@ -76,7 +76,7 @@ body{
     background-color:black;
 }
 
-.text {
+.textclass {
     grid-area: text;
     align-self: center;
     justify-self: center;
